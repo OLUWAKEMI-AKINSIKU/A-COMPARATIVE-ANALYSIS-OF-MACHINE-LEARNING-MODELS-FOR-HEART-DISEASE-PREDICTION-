@@ -43,7 +43,12 @@ This project investigates multiple machine learning models to predict the likeli
 | thal | 52.83% | Critical |
 | slope | 33.59% | High |
 | fbs | 9.78% | Moderate |
-| ... | ... | ... |
+| oldpeak | 6.74% | Moderate |
+| trestbps | 6.41% | Moderate |
+| thalch | 5.98% | Moderate |
+| exang | 5.98 | Moderate |
+| chol | 3.26% | Low |
+| restecg | 0.22% | Negligible|
 
 Dropping these columns would result in significant information loss.
 
