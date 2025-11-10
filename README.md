@@ -131,8 +131,8 @@ Although **KNN achieved the highest test F1-score**, it has **very low cross-val
 
 📁 project-root
 ├── notebooks/   
-├── data/           
-└── README.md
+├── README.md           
+└── data/
 
 
 
