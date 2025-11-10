@@ -114,9 +114,9 @@ This indicates that Random Forest not only makes accurate predictions but also g
 
 ## 🏆 Best Model
 
-### **Random Forest Classifier**
+Although **KNN achieved the highest test F1-score**, it has **very low cross-validation performance (0.685)**, indicating **poor generalization**.
 
-Chosen as the best model because it provides the strongest **balance across metrics**:
+✅ **Random Forest Classifier** is the best performing and most reliable model because 
 
 - Accuracy: **0.793**
 - Recall: **0.853**
@@ -129,7 +129,10 @@ Chosen as the best model because it provides the strongest **balance across metr
 
 ## 📂 Project Structure 
 
-
+📁 project-root
+├── notebooks/   
+├── data/           
+└── README.md
 
 
 
