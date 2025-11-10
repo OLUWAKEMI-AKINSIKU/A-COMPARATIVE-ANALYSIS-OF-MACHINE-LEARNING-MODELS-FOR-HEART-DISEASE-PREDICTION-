@@ -152,7 +152,7 @@ And highest CV Mean Accuracy (0.822) meaning it is the most stable and reliable 
 
 Therefore, the **Random Forest Classifier** is recommended for real-world heart disease prediction due to its balance of accuracy, recall, AUC performance, and consistent generalization to new data.
 
-
+Future improvements could include hyperparameter tuning, feature engineering, exploring additional ensemble methods, or deploying the model as a clinical decision support tool.
 
 ## 👩‍💻 Author
 **Oluwakemi Akinsiku**
