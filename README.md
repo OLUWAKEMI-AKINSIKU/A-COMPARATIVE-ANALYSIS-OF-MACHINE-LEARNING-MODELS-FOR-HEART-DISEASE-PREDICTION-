@@ -92,3 +92,32 @@ Chosen as the best model because it provides the strongest **balance across metr
 
 
 ## 📂 Project Structure (if organiPreprocessing
+
+📁 project-root ├── notebooks/        # Colab notebooks ├── data/             #  dataset ├── src/               
+└── README.md         # project documentation
+
+
+
+
+
+## ✅ Conclusion
+
+The Random Forest model remains the best performing model overall.
+Although KNN achieved the highest accuracy and F1-score on the test set, its very low cross-validation score (0.685) indicates that it does not generalize well and is likely overfitting.
+
+Random Forest, on the other hand:
+
+Has strong recall (0.853),
+
+Highest ROC-AUC (0.875) meaning it separates classes best,
+
+And highest CV Mean Accuracy (0.822) meaning it is the most stable and reliable across different subsets of the data.
+
+Therefore, the **Random Forest Classifier** is recommended for real-world heart disease prediction due to its balance of accuracy, recall, AUC performance, and consistent generalization to new data.
+
+---
+
+## 👩‍💻 Author
+**Oluwakemi Akinsiku**
+
+
